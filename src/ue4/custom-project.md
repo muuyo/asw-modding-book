@@ -12,9 +12,9 @@ Below are download links for each game:
 - [DNF Duel custom project](https://1drv.ms/u/s!ApT7KvOr_B0hgY3rUBgqs787KHi5_iY?e=xKuxrI)
 - [Granblue Fantasy Versus Rising custom project](https://drive.google.com/file/d/1aA1WYxkxpOUpNqSi5kANLUhh4Ja7A_4l/view?usp=drive_link)
 
+<hr>
 
-
-<details><summary>Guilty Gear-specific information</summary>
+<details><summary><b>Guilty Gear-specific information</b></summary>
 <br>
 
 The Guilty Gear -Strive- custom project does not come with content by default. To get the content, you can copy `pakchunk0-WindowsNoEditor.pak` from your copy of Strive into `RED\Content\Paks`. If the Paks folder does not exist, create it. 
@@ -30,8 +30,9 @@ Additionally, the Strive project may receive asset patches for certain assets. T
 
 Finally, if you don't want to do active work in the Advanced Project (due to the quantity of files), you can create a new project under the File dropdown at the top left - however, i've found **this has to be "christened"** by copying the `Config` folder from `/RED/` into your new project's folder, overwriting as necessary. If this step is not done, cooking won't work.
 
-<hr>
+
 </details>
+<hr>
 
 Once you have downloaded the correct project, extract it to your Unreal Projects directory. If you've run the editor before, you can usually find it at `Documents\Unreal Projects\`. **For Guilty Gear -Strive-, the custom project is already part of the editor.**
 
