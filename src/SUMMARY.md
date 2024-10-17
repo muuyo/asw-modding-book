@@ -17,13 +17,12 @@
 
 # Creating your mod
 
-- [Mesh/Model](modding-mesh/mesh-intro.md)
-  - [Extracting game models](modding-mesh/mesh-extracting.md)
-  - [Importing models into Blender]()
-  - [Setting up tangent-based outlines](modding-mesh/mesh-tangents.md)
-  - [Exporting models into UE4]()
-  - [Setting materials and outline]()
-  - [Custom materials]()
+- [Troubleshooting](troubleshooting/main.md)
+  - [Texture issues](troubleshooting/textures.md)
+
+- [Audio](modding-audio/audio-intro.md)
+  - [Extracting audio]()
+  - [Importing audio]()
 
 - [Texture/Colors](modding-texture/texture-intro.md)
   - [Extracting textures]()
@@ -33,9 +32,18 @@
   - [Editing SSS]()
   - [Editing detail/decal]()
   - [Exporting textures into UE4]()
+  - [Custom materials]()
   - [Per-game texture specifics]()
     - [Strive]()
     - [DBFZ]()
+	
+- [Mesh/Model](modding-mesh/mesh-intro.md)
+  - [Extracting game models](modding-mesh/mesh-extracting.md)
+  - [Importing models into Blender]()
+  - [Setting up tangent-based outlines](modding-mesh/mesh-tangents.md)
+  - [Exporting models into UE4]()
+  - [Setting materials and outline]()
+  - [Custom materials](modding-texture/)
 
 - [Animations](modding-animation/animation-intro.md)
   - [Extracting animations]()
@@ -64,10 +72,6 @@
   - [Per-game BBS specifics](modding-bbs/bbs-pergame.md)
     - [Strive](modding-bbs/bbs-strive.md)
     - [DBFZ](modding-bbs/bbs-dbfz.md)
-
-- [Audio](modding-audio/audio-intro.md)
-  - [Extracting audio]()
-  - [Importing audio]()
 
 - [UI Modding](modding-ui/ui-intro.md)
   - [UMG basics](modding-ui/umg.md)
