@@ -8,10 +8,12 @@ Due to the use of the newer advanced project, the switch to a different outline 
 The difference is pretty minimal, essentially requiring you to press one extra button before exporting to Blender.
 However, it might be a bit confusing at first, thus this guide exists.
 
+As to the benefits, you can use Abnormal to manipulate the way the outline extrudes from faces (in case it janks out in places you don't want it to) and it is generally more accurate (less floating off the model).
+
 **You will require a copy of the plugin [Abnormal](https://github.com/bnpr/Abnormal/releases) and the improved FBX plugin [here](./io_scene_fbx_arcsys.zip) to do this.**
 To install it, simply go to the link above, download the latest release, and add it as a blender addon in Preferences (Addons → top-right arrow → Install from File). Do the same for the FBX exporter, and disable Blender's built-in one.
 
-I believe you also need to be running Blender 4.2.
+You also need to be running Blender 4.2.
 <hr>
 To begin:
 
