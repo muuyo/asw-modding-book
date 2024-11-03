@@ -9,11 +9,24 @@ Several tools were created to make Blender compatible with modding Arc System Wo
 ## FModel with Arc System Works animation support
 
 [Download the UEFormat addon](https://github.com/halfuwu/UEFormat/tree/master)
+
 [Download the modified FModel with ArcSys animation support](https://github.com/WistfulHopes/FModel/releases/tag/arcsys)
 
 FModel supports exporting models and animations to a new "UEFormat", which is more accurate than either PSK/PSA or glTF. To export to UEFormat, open FModel's settings, then click on the `Models` tab. Finally, set `Mesh Format` to `UEFormat (uemodel)`.
 
 Now, you can right-click a model, animation, or folder containing either, and export the models/animations to UEFormat. The attached Blender addon can then import these.
+
+## ASW Modding Tools
+
+A blender addon used by many when modding Strive, it simplifies the process of either extracting models for animation purposes or for modding purposes. Supports automatically creating & adding textures to the below custom material.
+
+Install same as any blender addon. Clear Junk Materials deletes your outline material (for mesh modding), don't use it.
+
+[Here's my fork](https://github.com/muuyo/CA_ASW_Tools/releases/tag/release)
+
+[Doc on how to use it](https://docs.google.com/document/d/1m_h7p1WYypsvx2bpqFwvOS_aT1Vr_-jp5GQZK_X2dNA/edit?tab=t.0#heading=h.bxwyrhpezygq)
+
+[backup ODT of above doc](files/ASWToolsGuide.odt)
 
 ## Aerthas' custom materials & shaders
 
