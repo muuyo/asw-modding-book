@@ -19,6 +19,9 @@
 
 - [Troubleshooting](troubleshooting/main.md)
   - [Texture issues](troubleshooting/textures.md)
+  - [Model issues](troubleshooting/meshes.md)
+  
+- [Useful user-created tools/files/materials](userfiles/main.md)
 
 - [Audio](modding-audio/audio-intro.md)
   - [Extracting audio]()
@@ -32,7 +35,7 @@
   - [Editing SSS]()
   - [Editing detail/decal]()
   - [Exporting textures into UE4]()
-  - [Custom materials]()
+  - [Custom materials](modding-texture/custom-materials.md)
   - [Per-game texture specifics]()
     - [Strive]()
     - [DBFZ]()
@@ -43,7 +46,7 @@
   - [Setting up tangent-based outlines](modding-mesh/mesh-tangents.md)
   - [Exporting models into UE4]()
   - [Setting materials and outline]()
-  - [Custom materials](modding-texture/)
+  - [Custom materials](modding-texture/custom-materials.md)
 
 - [Animations](modding-animation/animation-intro.md)
   - [Extracting animations]()
