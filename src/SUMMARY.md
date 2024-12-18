@@ -20,7 +20,7 @@
 - [Troubleshooting](troubleshooting/main.md)
   - [Texture issues](troubleshooting/textures.md)
   - [Model issues](troubleshooting/meshes.md)
-  
+
 - [Useful user-created tools/files/materials](userfiles/main.md)
 
 - [Audio](modding-audio/audio-intro.md)
@@ -28,18 +28,18 @@
   - [Importing audio]()
 
 - [Texture/Colors](modding-texture/texture-intro.md)
-  - [Extracting textures]()
-  - [Previewing textures in Blender]()
-  - [Editing base]()
-  - [Editing ILM]()
-  - [Editing SSS]()
-  - [Editing detail/decal]()
-  - [Exporting textures into UE4]()
+  - [Extracting textures](modding-texture/texture-extract.md)
+  - [Previewing textures in Blender](modding-texture/texture-blender-preview.md)
+  - [Editing base](modding-texture/texture-edit-base.md)
+  - [Editing ILM](modding-texture/texture-edit-ilm.md)
+  - [Editing SSS](modding-texture/texture-edit-sss.md)
+  - [Editing detail/decal](modding-texture/texture-edit-detail-decal.md)
+  - [Exporting textures into UE4](modding-texture\texture-export.md)
   - [Custom materials](modding-texture/custom-materials.md)
   - [Per-game texture specifics]()
     - [Strive]()
     - [DBFZ]()
-	
+
 - [Mesh/Model](modding-mesh/mesh-intro.md)
   - [Extracting game models](modding-mesh/mesh-extracting.md)
   - [Importing models into Blender]()
