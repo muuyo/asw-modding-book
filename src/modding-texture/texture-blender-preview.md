@@ -4,8 +4,6 @@
 
 To preview textures in Blender you need first import the models in the Blender as written in the [section 9](modding-mesh\mesh-importing.md)
 
-
-
 After importing the models in Blender
 1. In Render properties set Color Management Display device as sRGB and View Transform to Standard.
 2. Set Viewport settings to Material Preview.
