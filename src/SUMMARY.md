@@ -24,8 +24,8 @@
 - [Useful user-created tools/files/materials](userfiles/main.md)
 
 - [Audio](modding-audio/audio-intro.md)
-  - [Extracting audio]()
-  - [Importing audio]()
+  - [Extracting audio](modding-audio/audio-extract.md)
+  - [Importing audio](modding-audio/audio-import.md)
 
 - [Texture/Colors](modding-texture/texture-intro.md)
   - [Extracting textures](modding-texture/texture-extract.md)
