@@ -9,7 +9,7 @@ If you're instead either bold or foolhardy like I was, read on.
 
 You will need:
 - The custom Unreal Engine from [section 1](ue4/getting-unreal.md)
-- A copy of Blender (or other modeling software, however Blender is much more widely used among the modding community and so you'll likely find better support for it)
+- A copy of Blender 4.2 (or other modeling software, however Blender is much more widely used among the modding community and so you'll likely find better support for it)
 - A copy of UnrealPak from the [pak section](packing/pak-intro.md)
 
-I recommend also using the Blender shader to accurately preview what you're doing from [this youtube playlist.](https://www.youtube.com/watch?v=a5Bz_3jZMBw&list=PLCkHUM_E60CSi1HowXR3v4uVWNqUDsl9l&index=7)
+I recommend also using the Blender shader to accurately preview what you're doing from [this youtube playlist.](https://www.youtube.com/watch?v=a5Bz_3jZMBw&list=PLCkHUM_E60CSi1HowXR3v4uVWNqUDsl9l&index=7) and how to view what you dp in [section 8](modding-texture\texture-blender-preview.md)
