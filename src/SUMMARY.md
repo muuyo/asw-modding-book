@@ -4,6 +4,8 @@
 
 # Getting Started
 
+- [Modding For Dummies](etc/moddingfordummies.md)
+
 - [Installing Unreal Engine](ue4/getting-unreal.md)
 - [Starting the editor](ue4/using-unreal.md)
   - [Custom UE4 project](ue4/custom-project.md)

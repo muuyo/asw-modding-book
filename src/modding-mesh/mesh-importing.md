@@ -9,14 +9,16 @@ If using UEFormat from Fmodel, please note that you **will need** the Blender ad
 Some actions must be done in Blender **before** importing the model here:
   1. Set Unit scale to 0.01 <div align="center"><img src="images/Unit-scale.png"></div><div align="center">
 
-If you use Fmodel for exporting models from the game, don't forget to install the [addon](modding-mesh\files\io_scene_ueformat.rar) for Blender to import .uemodel format in the program.
+If you use Fmodel for exporting models from the game, don't forget to install the [addon](modding-mesh\files\io_scene_ueformat.rar) for Blender for importing .ueformat files.
 
 
 ## Umodel
   1. Download .gltf [addon](modding-mesh\files\io_scene_gltf2_ue.rar) and Abnormal addon from [here](https://github.com/bnpr/Abnormal/releases).
-  2. Import the model <div align="center"><img src="images/Unreal-GLTF.png"></div><div align="center">
-  3. Delete Icospheres, or set the Viewport Display under Armature on your armature (green skeleton in Details) to Octahedral/Stick, depending on preference. You can completely hide it as well. <div align="center"><img src="images/Icosphere.png"></div><div align="center">
-  4. Rename Armature to "Armature"
+  2. Add the addons to Blender in Edit > Preferences > Add-ons > dropdown at the top right > Install from file
+  3. You may have to *disable the Blender gltf addon first*, then enable the Unreal-compatible one you just downloaded
+  4. Import the model; <div align="center"><img src="images/Unreal-GLTF.png"></div><div align="center">
+  5. Delete Icospheres, or set the Viewport Display under Armature on your armature (green skeleton in Details) to Octahedral/Stick, depending on preference. You can completely hide it as well. <div align="center"><img src="images/Icosphere.png"></div><div align="center">
+  6. Rename Armature to "Armature"
 
 ## Fmodel
 I would not recommend using Fmodel, as it does not seem to export material names on many models (at least in my experience.)
