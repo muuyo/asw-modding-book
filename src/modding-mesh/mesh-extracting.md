@@ -4,8 +4,8 @@
 <hr>
 <br>
 
-You're looking to use either [Fmodel](/tools/fmodel.md), 
-or [Umodel](/tools/umodel.md).
+You're looking to use either [Fmodel](../tools/fmodel.md), 
+or [Umodel](../tools/umodel.md).
 Learn how to set each up at the links above.
 Umodel is a more antiquated piece of software, however *as of now* it's the only one which exports material names correctly; so I would recommend using it. Fmodel is more recent, and I personally prefer using it, however it does not do so. It's still usually easier to export animations using it (and these can be used on Umodel exports), though, so find whatever workflow fits for you.
 
@@ -22,14 +22,14 @@ Either way, mesh locations you'll want to look for:
 <hr>
 
 ## Umodel
-Set up Umodel using the tutorial [here](/tools/umodel.md).
+Set up Umodel using the tutorial [here](../tools/umodel.md).
 - now, browse through the game's file trees to find whatever you wish to extract, then either right click the folder on the left and press Export folder content. **You want GLTF.**
-- or, right click an individual file and do so. For more detailed overhaul-y mesh mods, I recommend exporting animations at this step as well, [explained in section 7,](/modding-animation/animation-intro.md) as having them in Blender will mean you don't have to extract the mesh again later - they're very useful for finding when and how your model **will** jank out.
+- or, right click an individual file and do so. For more detailed overhaul-y mesh mods, I recommend exporting animations at this step as well, [explained in section 7,](../modding-animation/animation-intro.md) as having them in Blender will mean you don't have to extract the mesh again later - they're very useful for finding when and how your model **will** jank out.
 
 <br>
 
 ## Fmodel
-Set up Umodel using the tutorial [here](/tools/fmodel.md).
+Set up Umodel using the tutorial [here](../tools/fmodel.md).
 
 This is a newer method, however most likely much less of a pain to use, and more foolproof.
 - Follow the steps in the [blender section for Fmodel](../tools/blender.md#fmodel-with-arc-system-works-animation-support) to download Fmodel and the Blender addon to accept .ueformat files

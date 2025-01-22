@@ -15,3 +15,5 @@ Steps 2 and 3 will need to be done *every time you launch*. However, Umodel can 
 mine is configured like such in the Target field, set it up as needed.
 
 `"D:\MODDING\-- PROGRAMS\umodel_win32\umodel.exe" -gui -path="C:\Program Files (x86)\Steam\steamapps\common\GUILTY GEAR STRIVE\RED\Content\Paks" -game="ue4.25" -sounds -aes="0x3D96F3E41ED4B90B6C96CA3B2393F8911A5F6A48FE71F54B495E8F1AFD94CD73"`
+
+Then, move onto [mesh importing.](../modding-mesh/mesh-importing.md)

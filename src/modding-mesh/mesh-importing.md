@@ -4,16 +4,16 @@
 <hr>
 <br>
 
-If using UEFormat from Fmodel, please note that you **will need** the Blender addon to import those files, linked in [this section](/tools/blender.md#fmodel-with-arc-system-works-animation-support).
+If using UEFormat from Fmodel, please note that you **will need** the Blender addon to import those files, linked in [this section](../tools/blender.md#fmodel-with-arc-system-works-animation-support).
 
 Some actions must be done in Blender **before** importing the model here:
   1. Set Unit scale to 0.01 <div align="center"><img src="images/Unit-scale.png"></div><div align="center">
 
-If you use Fmodel for exporting models from the game, don't forget to install the [addon](modding-mesh\files\io_scene_ueformat.rar) for Blender for importing .ueformat files.
+If you use Fmodel for exporting models from the game, don't forget to install the [addon](../modding-mesh\files\io_scene_ueformat.rar) for Blender for importing .ueformat files.
 
 
 ## Umodel
-  1. Download .gltf [addon](modding-mesh\files\io_scene_gltf2_ue.rar) and Abnormal addon from [here](https://github.com/bnpr/Abnormal/releases).
+  1. Download .gltf [addon](../modding-mesh\files\io_scene_gltf2_ue.rar) and Abnormal addon from [here](https://github.com/bnpr/Abnormal/releases).
   2. Add the addons to Blender in Edit > Preferences > Add-ons > dropdown at the top right > Install from file
   3. You may have to *disable the Blender gltf addon first*, then enable the Unreal-compatible one you just downloaded
   4. Import the model; <div align="center"><img src="images/Unreal-GLTF.png"></div><div align="center">
