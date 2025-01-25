@@ -9,13 +9,10 @@ If using UEFormat from Fmodel, please note that you **will need** the Blender ad
 Some actions must be done in Blender **before** importing the model here:
   1. Set Unit scale to 0.01 <div align="center"><img src="images/Unit-scale.png"></div><div align="center">
 
-If you use Fmodel for exporting models from the game, don't forget to install the [addon](../modding-mesh\files\io_scene_ueformat.rar) for Blender for importing .ueformat files.
-
-
 ## Umodel
   1. Download .gltf [addon](../modding-mesh\files\io_scene_gltf2_ue.rar) and Abnormal addon from [here](https://github.com/bnpr/Abnormal/releases).
   2. Add the addons to Blender in Edit > Preferences > Add-ons > dropdown at the top right > Install from file
-  3. You may have to *disable the Blender gltf addon first*, then enable the Unreal-compatible one you just downloaded
+  3. You may have to *disable the Blender gltf addon first*, then enable the Unreal-compatible one you just downloaded.
   4. Import the model; <div align="center"><img src="images/Unreal-GLTF.png"></div><div align="center">
   5. Delete Icospheres, or set the Viewport Display under Armature on your armature (green skeleton in Details) to Octahedral/Stick, depending on preference. You can completely hide it as well. <div align="center"><img src="images/Icosphere.png"></div><div align="center">
   6. Rename Armature to "Armature"
@@ -24,7 +21,7 @@ If you use Fmodel for exporting models from the game, don't forget to install th
 I would not recommend using Fmodel, as it does not seem to export material names on many models (at least in my experience.)
 1. Set up Fmodel as described [here.](../tools/fmodel.md)
 2. Set Fmodel to export as uemodel, under Settings.
-   ![](image.png)
+   ![](./images/image.png)
 3. Open GGST in the Package tree (under pakchunk01, usually) then navigate to any model in the model tree (e.x. RED>Content>Chara>ANJ>Costume01>Mesh)
 4. Right click any mesh and hit "save model".
 5. Click the file when it exports in the console log at the bottom (white underlined link) to navigate to it.

@@ -44,9 +44,9 @@
 - [Mesh/Model](modding-mesh/mesh-intro.md)
   - [Extracting game models](modding-mesh/mesh-extracting.md)
   - [Importing models into Blender](modding-mesh/mesh-importing.md)
-  - [Setting up tangent-based outlines](modding-mesh/mesh-tangents.md)
+  - [Setting up outlines (read this first)](modding-mesh/mesh-outlines.md)
+    - [Setting up tangent-based outlines](modding-mesh/mesh-tangents.md)
   - [Exporting models into UE4]()
-  - [Setting materials and outline]()
   - [Custom materials](modding-texture/custom-materials.md)
 
 - [Animations](modding-animation/animation-intro.md)
