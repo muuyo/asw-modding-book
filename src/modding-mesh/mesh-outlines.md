@@ -48,4 +48,5 @@ for normal based outlines:
 - right click, Create Material Instance, rename it to MI_MAIN_OUTLINE
 - open that material instance, and *change the setting UseTangents to off.* note, the first checkbox changes *whether you're changing that value*, the second changes the actual value. like this:  
 ![tangentscheckbox](./images/image-2.png)
+- set up the other stuff too. i don't think you need to set up olm and SSS? just know those settings are there if it doesn't work / you're doing recolors / etc. this material is also how cool custom outlines are done, like red ones.
 - you should be done. apologies, haven't tested, this is a quick writeup. should work though. just make sure the file is named correctly, MI_MAIN_OUTLINE.
