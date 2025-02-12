@@ -12,7 +12,7 @@ The dehydration is, almost always, an issue of the armature applied to your mode
 
 - Verify that the unit scale in Blender (under the Properties window, look for the cone tab) is 0.01. **This is important!** As well, make sure you're using meters.
 
-- Reimport the *source of your skeleton* - usually a GLTF from umodel, but can also be from Fmodel.
+- Reimport the *source of your skeleton* - either from a GLTF from umodel, or a uemodel from Fmodel.
 
 - Delete the model from this import, as you won't need it; click the skeleton, and hit N to bring up the Viewport sidebar. Under Item, **make sure it's a "normal" size**; e.g. 2.2 meters, and not 0.022 or 220.
 

@@ -7,7 +7,7 @@
 You're looking to use either [Fmodel](../tools/fmodel.md), 
 or [Umodel](../tools/umodel.md).
 Learn how to set each up at the links above.
-Umodel is a more antiquated piece of software, however *as of now* it's the only one which exports material names correctly; so I would recommend using it. Fmodel is more recent, and I personally prefer using it, however it does not do so. It's still usually easier to export animations using it (and these can be used on Umodel exports), though, so find whatever workflow fits for you.
+Umodel is a more antiquated piece of software; Fmodel is more recent, and I personally prefer using it. As well, it seems to currently be the only software that supports exporting material names, animations and every other asset! Umodel is mostly here for posterity.
 
 <hr>
 
@@ -21,6 +21,16 @@ Either way, mesh locations you'll want to look for:
 <br>
 <hr>
 
+## Fmodel
+Set up Fmodel using the tutorial [here](../tools/fmodel.md).
+
+This is a newer method, however most likely much less of a pain to use, and more foolproof.
+- Follow the steps on the [Fmodel page](..//tools/fmodel.md) to download and configure Fmodel and the Blender addon to accept .ueformat files
+- Optionally, double click any file to preview it in Fmodel's viewer
+- Right click any file in Fmodel, and export as a ueformat file as in the page linked in Step 1
+<br>
+<hr>
+
 ## Umodel
 Set up Umodel using the tutorial [here](../tools/umodel.md).
 - now, browse through the game's file trees to find whatever you wish to extract, then either right click the folder on the left and press Export folder content. **You want GLTF.**
@@ -28,15 +38,5 @@ Set up Umodel using the tutorial [here](../tools/umodel.md).
 
 <br>
 
-## Fmodel
-Set up Umodel using the tutorial [here](../tools/fmodel.md).
-
-This is a newer method, however most likely much less of a pain to use, and more foolproof.
-- Follow the steps in the [blender section for Fmodel](../tools/blender.md#fmodel-with-arc-system-works-animation-support) to download Fmodel and the Blender addon to accept .ueformat files
-- Configure Fmodel (if you need to) using [the steps in Section 3.1](../tools/fmodel.md) to correctly open Strive's files
-- Optionally, double click any file to preview it in Fmodel's viewer
-- Right click any file in Fmodel, and export as a ueformat file as in the page linked in Step 1
-<br>
-<hr>
 
 After either method, view [the mesh importing section.](mesh-importing.md)

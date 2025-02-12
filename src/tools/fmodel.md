@@ -4,9 +4,10 @@
 <hr>
 <br>
 
-Fmodel is a fairly intuitive piece of software that lets you browse through the game files in a lot less opaque way than Umodel, and as of recently, [supports exporting models and animations!](../tools/blender.md#fmodel-with-arc-system-works-animation-support)
+Fmodel is a fairly intuitive piece of software that lets you browse through the game files in a lot less opaque way than Umodel, and as of recently, supports exporting models, materials and animations!
+
 To set it up, you require a bit of legwork.
-- Download it from WistfulHopes' [fork of Fmodel to allow Arcsys animation support](https://github.com/WistfulHopes/FModel/releases/tag/arcsys), you're looking for Fmodel-ArcSys.rar.
+- Download the most recent release of Fmodel [here](https://fmodel.app/).
 - Put the EXE wherever you'd like (feel free to ignore the other files, they're for compiling)
 - Open it, and you'll be presented with a page that looks like this.
 
@@ -17,5 +18,18 @@ Now, you need to add Guilty Gear as a custom game.
 - Select this newly added game in the Detected Game section.
 - Make sure the box beside 'UE versions' is *unchecked*, then select "GAME_UE4_25" (for Unreal version 4.25, which the game uses)
 After, you should be prepped to use Fmodel! Hit OK, then double click the `pakchunk0-WindowsNoEditor.pak` to start browsing the game's files.
+
+# Blender
+
+[Blender addon required to import .ueformat files](https://github.com/h4lfheart/UEFormat/tree/master/Blender)
+
+FModel supports exporting models and animations to a new "UEFormat", which is more accurate than either PSK/PSA or glTF. To export to UEFormat, open FModel's settings, then click on the `Models` tab. Finally, set `Mesh Format` to `UEFormat (uemodel)`.
+
+Now, you can right-click a model, animation, or folder containing either, and export the models/animations to UEFormat. The attached Blender addon can then import these.
+
+To set up the Blender addon, you will need to download the entire repository, then navigate down to `\Blender\` and zip "io_scene_ueformat" into a new zip file. If you don't want to do this, the repo hasn't been updated in 8 months so here's [a zip:](./files/io_scene_ueformat.zip)
+
+Then, install this into Blender under `Edit > Preferences > Add-ons > top right arrow > Install From Disk...`
+
 
 This document will not be going over how to use Fmodel, however it's fairly self explanatory and [it has its own documentation, linked here.](https://github.com/4sval/FModel/wiki)

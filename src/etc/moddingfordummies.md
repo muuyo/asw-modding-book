@@ -21,7 +21,7 @@ On that note, here's the Unreal Anime Mods discord: [link.](https://discord.gg/t
 First, you'll need to extract assets from the game. You will most likely want to do this even if you're only making a recolor (to preview your work), but it's not strictly necessary. <br>
 There are two tools for this; Umodel and Fmodel. 
 
-[Fmodel](../tools/fmodel.md) is a more modern piece of software, however it lacks the ability to export material names as of present. This generally means getting a model into it requires a bunch more work. As such, I personally use it to browse files and export animations, and then use [umodel](../tools/umodel.md) to export models. 
+[Fmodel](../tools/fmodel.md) is a more modern piece of software, and as of recent updates the much more suited application for exporting. [Umodel](../tools/umodel.md) is also available, but it's more antiquated and doesn't presently have any advantages - beyond maybe previewing animations quickly. 
 Next, follow the [mesh importing section](../modding-mesh/mesh-importing.md) if you wish to extract models, or simply navigate to any texture and export them as a TGA otherwise.
 
 <hr>
