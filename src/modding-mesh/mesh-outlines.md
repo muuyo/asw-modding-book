@@ -35,11 +35,12 @@ you have two options: tangents or normals
 |-|-|
 easier to set up on the Unreal end | you have to set up One thing in unreal
 requires re-doing every export | don't have to do anything in blender
-doesn't work with models that have non-triangular faces | works with anything, afaik
+doesn't work with models that have non-triangular faces, should be able to change export setting | works with anything, afaik
 theoretically more accurate (and controllable) results | one-and-done
+**the better option, actually in the mesh** | **bandaid fix, won't work with different MI_MAIN_OUTLINEs on some recolors, more fickle**
 <hr>
 
-for tangents, go to [the tangent section](../mesh-tangents.md)
+for tangents, go to [the tangent section](./mesh-tangents.md)
 
 for normal based outlines:
 

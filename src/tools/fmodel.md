@@ -7,7 +7,7 @@
 Fmodel is a fairly intuitive piece of software that lets you browse through the game files in a lot less opaque way than Umodel, and as of recently, supports exporting models, materials and animations!
 
 To set it up, you require a bit of legwork.
-- Download the most recent release of Fmodel [here](https://fmodel.app/).
+- Download the **most recent release** of Fmodel [here](https://fmodel.app/). **Make sure once you download that you're running on the most recent release**, by opening Help -> Release and checking if there's more recent versions.
 - Put the EXE wherever you'd like (feel free to ignore the other files, they're for compiling)
 - Open it, and you'll be presented with a page that looks like this.
 
