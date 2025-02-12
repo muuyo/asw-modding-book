@@ -15,3 +15,5 @@ The current Guilty Gear -Strive- editor works differently. It will be booted fro
 The first boot of the UE4 editor usually takes a while to get going. If you want to check whether it's actually starting or not, open Task Manager (Ctrl + Shift + Esc) and check for high CPU usage. This usually means it's busy compiling shaders.
 
 Once Unreal finishes initializing, you will be met with the Project Browser menu. While you could create your own project from scratch, we highly recommend starting off with one of the [pre-made custom projects.](custom-project.md)
+
+If you are using the Strive version, it instead opens to the advanced project by default. To instead use your own project, please follow the steps on [the custom project page](./custom-project.md) to create your own project.

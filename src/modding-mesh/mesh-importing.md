@@ -34,6 +34,4 @@ Some actions must be done in Blender **before** importing the model here:
   5. Delete Icospheres, or set the Viewport Display under Armature on your armature (green skeleton in Details) to Octahedral/Stick, depending on preference. You can completely hide it as well. <div align="center"><img src="images/Icosphere.png"></div><div align="center">
   6. Rename Armature to "Armature"
 
-
-
-Now you can go on to use this or get materials [onto your model.](../modding-texture/texture-blender-preview.md)
+Now you can go on to use this baseline, or get materials [onto your model.](../modding-texture/texture-blender-preview.md)

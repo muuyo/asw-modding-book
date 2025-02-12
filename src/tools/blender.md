@@ -34,14 +34,10 @@ The most useful scripts have their own [wiki pages](https://github.com/SaitsuP/A
 
 ## A note on Blender FBX export into UE4
 
-The default Blender FBX exporter, while usable, is not preferred for Unreal Engine 4 modding. If you're willing to pay up, consider [Better FBX Importer & Exporter](https://blendermarket.com/products/better-fbx-importer--exporter) instead.
+You are going to need the modded FBX addon by Ryn for anything related to mesh exporting. It can be acquired [here.](../modding-mesh/io_scene_fbx_arcsys.zip)
 
-If you are modding Guilty Gear -Strive- or a game newer than it, there is also [Epic Games' very own Send to Unreal addon](https://github.com/EpicGames/BlenderTools/releases/tag/20220216152539). **The linked release is the last one that works on UE4.25. Newer releases only support UE4.27 and above, and the most recent releases only supports UE5.** 
-
-Note that you must have connected your GitHub account to your Epic Games account in order to view this page. [Click here for more information.](https://www.epicgames.com/help/en-US/epic-accounts-c5719348850459/connected-accounts-c5719351300507/how-do-i-link-my-unreal-engine-account-with-my-github-account-a5720369784347?sessionInvalidated=true)
-
-If you are *not* using the Better FBX addon, there is one step that must be followed in order to export an FBX to Unreal:
-- The Armature for your model *must* be named Armature. **If it is named anything else, skeletal mesh imports will not animate correctly.**
-
-Additionally, if you are not using the Send to Unreal addon, there is one more step that must be undertaken:
-- Under the Scene tab of the Properties menu, set the Unit Scale to 0.01. You will also need to scale your model proportionately (100 times).
+When exporting with this, you first **need to set your armature's name to Armature**; else, your mesh will be completely invisible. For particle meshes (ones without armatures), this is avoidable.  
+![texture settings](image-1.png)  
+Select your mesh then your armature; then, export with these settings.  
+![export settings](image-2.png)  
+You may want to turn on Triangulate Faces. As well, if your Unit Scale (in your project) is not .01, change Scale to .01. You can save all these settings using the Operator Presets at the top.

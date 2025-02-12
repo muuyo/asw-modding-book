@@ -30,6 +30,7 @@ Additionally, the Strive project may receive asset patches for certain assets. T
 
 Finally, if you don't want to do active work in the Advanced Project (due to the quantity of files), you can create a new project under the File dropdown at the top left - however, i've found **this has to be "christened"** by copying the `Config` folder from `/RED/` into your new project's folder, overwriting as necessary. If this step is not done, cooking won't work.
 
+To open these new projects, you can either open Unreal and use File `-> Open Project...`, or set Windows to open the .uprojects (from `C:\Users\[USER]\Documents\Unreal Projects`) with `UnrealEditor\RED\Binaries\Win64\GGSTCookedEditor.exe"
 
 </details>
 <hr>

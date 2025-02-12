@@ -5,10 +5,12 @@
 # Getting Started
 
 - [Modding For Dummies](etc/moddingfordummies.md)
-
-- [Installing Unreal Engine](ue4/getting-unreal.md)
-- [Starting the editor](ue4/using-unreal.md)
+- [**Unreal Engine**]()
+  - [Installing Unreal Engine](ue4/getting-unreal.md)
   - [Custom UE4 project](ue4/custom-project.md)
+  - [Starting the editor](ue4/using-unreal.md)
+  - [Getting assets into Unreal](ue4/unreal-exporting.md)
+
 - [External tools](tools/get-tools.md)
   - [Using Fmodel](tools/fmodel.md)
   - [Using Umodel](tools/umodel.md)
@@ -46,8 +48,9 @@
   - [Importing models into Blender](modding-mesh/mesh-importing.md)
   - [Setting up outlines (read this first)](modding-mesh/mesh-outlines.md)
     - [Setting up tangent-based outlines](modding-mesh/mesh-tangents.md)
-  - [Exporting models into UE4]()
+  - [Exporting models into UE4](ue4/unreal-exporting.md)
   - [Custom materials](modding-texture/custom-materials.md)
+  
 
 - [Animations](modding-animation/animation-intro.md)
   - [Extracting animations]()

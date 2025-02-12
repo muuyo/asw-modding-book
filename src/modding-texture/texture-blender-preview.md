@@ -4,7 +4,7 @@
 In this section, we'll overview how to preview your models with edited textures in Blender.
 <hr>
 
-First, I recommend using this [this template](startup.blend) to have everything laid out already; materials and such come with. You can hit N when using the Blender Open dialog to disable the "Load UI" checkbox to keep the one already loaded. You can also add it as a startup file by putting it here; it'll be available on startup (the folder name just changes the Template name).
+First, I recommend using this [this template](startup.blend) to have everything laid out already; materials and such come with. This is for Blender 4.2, so may not work on other versions. You can hit N when using the Blender Open dialog to disable the "Load UI" checkbox to keep the one already loaded. You can also add it as a startup file by putting it here; it'll be available on startup (the folder name just changes the Template name).
 
 ![](image.png); 
 
