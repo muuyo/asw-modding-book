@@ -16,7 +16,7 @@ You can find the download links below. Just pick the one matching the game you w
 | Granblue Fantasy Versus       | [Unreal Engine 4.21](https://1drv.ms/u/s!ApT7KvOr_B0hkPgWb5AjxrUapJcYmQ?e=79mVYA)                        |
 | Granblue Fantasy Versus Rising | [Unreal Engine 4.27](https://drive.google.com/file/d/1SnX9rcMxeHP82GojHocdLUux2Sa0qZG1/view?usp=sharing) |
 
-The Guilty Gear -Strive- editor may receive periodic patches in another archive. You'll want to download both `GGSTCookedEditor.rar` and `GGSTCookedEditor_Patch.rar`. After extracting the first RAR, extract the second RAR into the same folder. This should replace files.
+The Guilty Gear -Strive- editor may receive periodic patches in another archive. You'll need to update it using the steps on the [next page](./custom-project.md) for actually setting up the editor.
 
 # NOTICE FOR STRIVE
 currently, there's an updated ver of the CharaMaterial folder as well; use this or things bug out.
