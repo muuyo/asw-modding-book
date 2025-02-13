@@ -33,11 +33,8 @@
   - [Importing audio]()
 
 - [Texture/Colors](modding-texture/texture-intro.md)
-  - [Extracting textures](modding-texture/texture-extract.md)
   - [Previewing textures in Blender](modding-texture/texture-blender-preview.md)
   - [Functions of Base/SSS/ILM textures](modding-texture/texture-images.md)
-  - [Editing detail/decal](modding-texture/texture-edit-detail-decal.md)
-  - [Exporting textures into UE4](modding-texture\texture-export.md)
   - [Custom materials](modding-texture/custom-materials.md)
   - [Per-game texture specifics]()
     - [Strive]()
