@@ -25,6 +25,8 @@ Okay, so;
 
 ### Cooking
 
+### You may want to know that I have scripts that automatically cook, copy, and pack the files all automatically! They're on the [user-made tools page.](../userfiles/main.md) Below config settings still apply.
+
 To make sure you're only cooking the files you want, hit `Edit > Project Settings > (new panel appears) > Packaging`.
 
   - Then, click the first dropdown under the Packaging section: ![packaging dropdown arrow](image.png)
