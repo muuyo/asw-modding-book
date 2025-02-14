@@ -4,9 +4,8 @@
 <hr>
 <br>
 
-This page will detail the functions of each image in Strive:
-https://docs.google.com/document/d/1ejZ9TrIFNwiawLcFj-XRtaO3Vg9TxD04sR8HKOaRkGI/edit
-here's a visualized version of this, i'll make gifs and fancy stuff later
+This page will detail the functions of each image in Strive:    
+[here's a visualized version](https://docs.google.com/document/d/1ejZ9TrIFNwiawLcFj-XRtaO3Vg9TxD04sR8HKOaRkGI/edit) of this, i'll make gifs and fancy stuff later  
 
 preliminary draft;
 
@@ -16,7 +15,8 @@ In this doc, when referring to values such as ".3", this usually means "30% whit
 - CHR_base is the base color of your character. the alpha of this image decides how shiny the material is.  
 - CHR_Sss *is* the shadow color of your character - this game has no shadow color handling. The Alpha of this image defines *Taste* and *Asano* gradients, more specifically which parts of the image get them. 
   - Set this to .3 on a part to get the Asano gradient (usually used for hair).
-  - Set this to .7 on a part to get the Taste color - this is set in the material, *not* any textures, so you almost always want this off unless you are material instancing.
+  - Set this to .7 on a part to get the Taste color
+  - These gradients are both set in the material, *not* any textures, so you almost always want this alpha completely black unless you are material instancing.
 - CHR_decal is used for parts of the model that want a "transparent" texture to overlay onto the base. Very commonly used for small bits of text on models.
 - CHR_olm is only on some characters, and essentially defines how much of the SSS "bleeds" into the outline.
   - Completely black means black outlines. As you get brighter, the outline starts reflecting the color of the SSS. I believe full white on this actually glows.
