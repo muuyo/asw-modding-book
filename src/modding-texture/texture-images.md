@@ -17,7 +17,7 @@ In this doc, when referring to values such as ".3", this usually means "30% whit
   - Set this to .3 on a part to get the Asano gradient (usually used for hair).
   - Set this to .7 on a part to get the Taste color
   - These gradients are both set in the material, *not* any textures, so you almost always want this alpha completely black unless you are material instancing.
-- CHR_decal is used for parts of the model that want a "transparent" texture to overlay onto the base. Very commonly used for small bits of text on models.
+- CHR_decal is used for parts of the model that want a "transparent" texture to overlay onto the base. Very commonly used for small bits of text on models. Grey means transparent; anything lighter or darker becomes opaque.
 - CHR_olm is only on some characters, and essentially defines how much of the SSS "bleeds" into the outline.
   - Completely black means black outlines. As you get brighter, the outline starts reflecting the color of the SSS. I believe full white on this actually glows.
 

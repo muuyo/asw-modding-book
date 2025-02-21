@@ -18,7 +18,7 @@ Okay, so;
 
 - In Blender, make sure you have the FBX export addon (using blender 4.2). The full process is detailed on [the Blender page](../tools/blender.md), under the FBX section.
 - Make sure you're going to handle Outlines using one of the methods in [the Outlines page](../modding-mesh/mesh-outlines.md)
-- Export the file as you need.
+- Export the file as you need. *Make sure to check the Blender page above that you've got the correct export settings!*
 - Drag it into your character's Mesh folder. Use these specific settings, mostly all necessary:
 ![Import settings in UE4](../modding-mesh/images/unrealimportsettings.jpg)
 - Proceed to the cooking section.
@@ -34,7 +34,7 @@ To make sure you're only cooking the files you want, hit `Edit > Project Setting
   - These two sections are of great interest:  
    ![cooking sections](image-1.png)
   - Additional Asset Directories To Cook specifies the specific directories... you want to cook. Point this to your files if you only want to cook those things; as well, it *disables cooking any other files in the project* if this is set.
-  - Directories To Never Cook is nice for disabling things. I recommend putting `/Game/Shared` in here no matter what, as it causes Big Problems if you don't.
+  - Directories To Never Cook is nice for disabling things. I recommend putting `/Game/Shared` in here no matter what, as it causes Big Problems if you accidentally cook it somehow.
   
 Now, to actually cook.  
 Hit File at the top left, then hit Cook Content For Windows.  

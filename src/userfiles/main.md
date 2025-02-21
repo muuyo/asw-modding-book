@@ -6,7 +6,7 @@ This section'll be for generic user files that you may find helpful.
 ### Cooking script
 A batch script I personally use to run my cooks automatically. Does the equivalent of going from clicking "Cook Content For Windows" to launching the game.  
 You'll have to open config.txt in Notepad to change the file locations, first. Man, I hate Batch.  
-[download here!](./files/AutoPakker.zip)
+[download here!](./files/AutoPak.zip)
 
 ### Texture templates hosted by Lumacosy
 a buncha psd texture templates for miscellaneous things. has most characters and few UI assets.  

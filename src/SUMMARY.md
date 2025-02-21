@@ -27,6 +27,8 @@
   
 - [Useful user-created tools/files/materials](userfiles/main.md)
 - [Locations of commonly used Strive assets](assets.md)
+- [Game/character specific miscellany](misc/main.md)
+  - [Zato-ONE](misc/zato.md)
 
 - [Audio](modding-audio/audio-intro.md)
   - [Extracting audio]()
