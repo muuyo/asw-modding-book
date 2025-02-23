@@ -63,13 +63,14 @@ NOTES
 </details>
 <hr>
 
-### I would recommend using Blender to load the particle meshes (`ZAT\Common\Effect\Particles\ZAT_PTC01\Mesh\`) if you need to recolor something specific! View the UV maps!!! 
+### I would recommend using Blender to load the particle meshes (`ZAT\Common\Effect\Particles\ZAT_PTC01\Mesh\`) if you need to recolor something specific! View the UV maps!!!   
+### Also loose file loading with the Costume mod really helped I recommend it for prototyping!!!
 
 Here's what each part does;
 
 ![material parameter image](image-1.png)
 
-Each particle (viewed in UAssetGUI as it can edit all values. ParticleEditor can only do some) does these; the top does nothing.  
+Each particle (viewed in UAssetGUI as it can edit all values. ParticleEditor can only do some) is shown below.
 The colors on these combine strangely, so use with caution.  
 all 3 are set to 10; Base seems like it should be set to 1.
 
@@ -80,7 +81,8 @@ all 3 are set to 10; Base seems like it should be set to 1.
 Here's what each of Zato's animations look like with the SSS set to a rainbow gradient, like so (all of Zato's particle/mat colors are set to gold and white, for a recolor):  
 
 <img src="image-2.png" height="200">
-<video controls src="ZatoRainbowStuff.mp4" title="RainbowVideo"></video>
+
+<video controls src="ZatoRainbow.mp4" title="RainbowVideo"></video>
 
 Here's the frog's mouth and the 2s hand since they were driving me insane;
 ![alt text](image-3.png)
