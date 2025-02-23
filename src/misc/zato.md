@@ -31,6 +31,8 @@ So;
 The below zip contains the files needed to edit Eddie in Unreal. Note that *it comes with some that should NOT be cooked; please follow [the cooking section on this page](../ue4/unreal-exporting.md) to set up your cooking directories so that you *only cook your Color01 folder*.  
 Copy them over to your Unreal by placing the zip's contents in your Content folder; Shared merging with Shared, etc. (If it's not working, you probably [need the CharaMaterial folder.](../ue4/getting-unreal.md))  
 
+EDY_SSS defines most of Eddie's "model" colors; e.g. Zato's dash surfboard, 
+
 Here's a writeup from Noah in the UAM discord as to parts of Zato's materials/PTC; it contradicts this at points.
 <hr>
 <details> <summary> dropdown snippet</summary>
@@ -57,9 +59,11 @@ Texture file - Mesh texture for things like Drunkard Shade's mouth interior, j.S
 
 NOTES
 2P and 5P are governed by MI_EDY_BASE. 
-2S is PTC 10 
+2S is PTC 10 [THIS IS WRONG!]
 </details>
 <hr>
+
+### I would recommend using Blender to load the particle meshes (`ZAT\Common\Effect\Particles\ZAT_PTC01\Mesh\`) if you need to recolor something specific! View the UV maps!!! 
 
 Here's what each part does;
 
@@ -70,3 +74,13 @@ The colors on these combine strangely, so use with caution.
 all 3 are set to 10; Base seems like it should be set to 1.
 ![particles](image.png)
 <video controls src="2025-02-21 00-36-26.mp4" title="zatocolors"></video>
+
+<details><summary><b> DROPDOWN - Various miscellaneous pieces of info</b> </summary>
+Here's what each of Zato's animations look like with the SSS set to a rainbow gradient, like so (all of Zato's particle/mat colors are set to gold and white, for a recolor):  
+<img src="image-2.png" height="200">
+<video controls src="GUILTY GEAR -STRIVE- - 2025-02-22 3-37-40 PM.mp4" title="StriveVideo"></video>
+
+Here's the frog's mouth and the 2s hand since they were driving me insane;
+![alt text](image-3.png)
+</details>
+
