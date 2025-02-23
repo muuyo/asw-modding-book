@@ -72,13 +72,15 @@ Here's what each part does;
 Each particle (viewed in UAssetGUI as it can edit all values. ParticleEditor can only do some) does these; the top does nothing.  
 The colors on these combine strangely, so use with caution.  
 all 3 are set to 10; Base seems like it should be set to 1.
+
 ![particles](image.png)
 <video controls src="2025-02-21 00-36-26.mp4" title="zatocolors"></video>
 
 <details><summary><b> DROPDOWN - Various miscellaneous pieces of info</b> </summary>
 Here's what each of Zato's animations look like with the SSS set to a rainbow gradient, like so (all of Zato's particle/mat colors are set to gold and white, for a recolor):  
+
 <img src="image-2.png" height="200">
-<video controls src="GUILTY GEAR -STRIVE- - 2025-02-22 3-37-40 PM.mp4" title="StriveVideo"></video>
+<video controls src="ZatoRainbowStuff.mp4" title="RainbowVideo"></video>
 
 Here's the frog's mouth and the 2s hand since they were driving me insane;
 ![alt text](image-3.png)
