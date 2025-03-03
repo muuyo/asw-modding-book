@@ -28,12 +28,13 @@ SO! here's my (hopefully) new-and-improved way to make Zato recolors that includ
 I've essentially reduced the previous process of guess-and-checking and editing UAsset files directly to editing materials in UE4 normally (though particle colors still have to be edited)
 
 So;  
-The below zip contains the files needed to edit Eddie in Unreal. Note that *it comes with some that should NOT be cooked; please follow [the cooking section on this page](../ue4/unreal-exporting.md) to set up your cooking directories so that you *only cook your Color01 folder*.  
-Copy them over to your Unreal by placing the zip's contents in your Content folder; Shared merging with Shared, etc. (If it's not working, you probably [need the CharaMaterial folder.](../ue4/getting-unreal.md))  
+The below zip contains the files needed to edit Eddie in Unreal. Note that *it comes with some that should NOT be cooked*; please follow [the cooking section on this page](../ue4/unreal-exporting.md) to set up your cooking directories so that you *only cook your Color01 folder*.  
+Copy them over to your Unreal by placing the zip's contents in your project folder; Content merging with Content. (If it's not working, you probably [need the CharaMaterial folder.](../ue4/getting-unreal.md))  
 
-EDY_SSS defines most of Eddie's "model" colors; e.g. Zato's dash surfboard, 
+## [the aformentioned zip](./zato/ZatoFiles.zip)
 
-Here's a writeup from Noah in the UAM discord as to parts of Zato's materials/PTC; it contradicts this at points.
+
+Here's a writeup from Noah in the UAM discord as to parts of Zato's materials/PTC; some parts of it are wrong, but I've put it here for posterity.
 <hr>
 <details> <summary> dropdown snippet</summary>
 
@@ -68,23 +69,25 @@ NOTES
 
 Here's what each part does;
 
-![material parameter image](image-1.png)
+EDY_SSS defines most of Eddie's "model" colors; e.g. Zato's dash surfboard. 
+
+![material parameter image](./zato/image-1.png)
 
 Each particle (viewed in UAssetGUI as it can edit all values. ParticleEditor can only do some) is shown below.
 The colors on these combine strangely, so use with caution.  
 all 3 are set to 10; Base seems like it should be set to 1.
 
-![particles](image.png)
-<video controls src="2025-02-21 00-36-26.mp4" title="zatocolors"></video>
+![particles](./zato/image.png)
+<video controls src="./zato/2025-02-21 00-36-26.mp4" title="zatocolors"></video>
 
 <details><summary><b> DROPDOWN - Various miscellaneous pieces of info</b> </summary>
 Here's what each of Zato's animations look like with the SSS set to a rainbow gradient, like so (all of Zato's particle/mat colors are set to gold and white, for a recolor):  
 
-<img src="image-2.png" height="200">
+<img src="./zato/image-2.png" height="200">
 
-<video controls src="ZatoRainbow.mp4" title="RainbowVideo"></video>
+<video controls src="./zato/ZatoRainbow.mp4" title="RainbowVideo"></video>
 
 Here's the frog's mouth and the 2s hand since they were driving me insane;
-![alt text](image-3.png)
+![alt text](./zato/image-3.png)
 </details>
 
