@@ -27,7 +27,7 @@ FModel supports exporting models and animations to a new "UEFormat", which is mo
 
 Now, you can right-click a model, animation, or folder containing either, and export the models/animations to UEFormat. The attached Blender addon can then import these.
 
-To set up the Blender addon, you will need to download the entire repository, then navigate down to `\Blender\` and zip "io_scene_ueformat" into a new zip file. If you don't want to do this, the repo hasn't been updated in 8 months so here's [a zip:](./files/io_scene_ueformat.zip)
+To set up the Blender addon, you will need to download the entire repository, then navigate down to `\Blender\` and zip "io_scene_ueformat" into a new zip file. If you don't want to do this, [here's a zip.](./files/ueformat.zip)
 
 Then, install this into Blender under `Edit > Preferences > Add-ons > top right arrow > Install From Disk...`
 
