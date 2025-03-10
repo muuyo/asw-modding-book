@@ -20,4 +20,4 @@ The Guilty Gear -Strive- editor may receive periodic patches in another archive.
 
 # NOTICE FOR STRIVE
 currently, there's an updated ver of the CharaMaterial folder as well; use this or things bug out.
-download from this repo [here](./files/CharaMaterial(2).rar) then extract it like the above; go into RED/ (your project's folder) then copy Content into there, replacing files when prompted.
+download from this repo [here](./files/CharaMaterial.rar) then extract it like the above; go into RED/ (your project's folder) then copy Content into there, replacing files when prompted.
