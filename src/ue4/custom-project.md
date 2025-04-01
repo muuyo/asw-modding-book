@@ -31,7 +31,7 @@ This saves around 30 GB of hard drive space, since you're not duplicating the fi
 If this doesn't work, run as administrator - I also wasn't able to do this in Powershell, *only* Command Prompt.
 
 
-Finally, if you don't want to do active work in the Advanced Project (due to the quantity of files), you can create a new project under the File dropdown at the top left - however, i've found **this has to be "christened"** by copying the `Config` folder from `/RED/` into your new project's folder, overwriting as necessary. If this step is not done, cooking won't work.
+Finally, if you don't want to do active work in the Advanced Project (due to the quantity of files), you can create a new project under the File dropdown at the top left - however, i've found **this has to be "christened"** by copying the `Config` folder from `/RED/` (in wherever you downloaded the custom project) into your new project's folder, overwriting as necessary. If this step is not done, cooking won't work.
 
 To open these new projects, you can either open Unreal and use File `-> Open Project...`, or set Windows to open the .uprojects (from `C:\Users\[USER]\Documents\Unreal Projects`) with `UnrealEditor\RED\Binaries\Win64\GGSTCookedEditor.exe"
 

@@ -30,12 +30,13 @@
 - [Game/character specific miscellany](misc/main.md)
   - [Zato-ONE](misc/zato.md)
 
+- [Previewing textures in Blender](modding-texture/texture-blender-preview.md)
+
 - [Audio](modding-audio/audio-intro.md)
   - [Extracting audio]()
   - [Importing audio]()
 
 - [Texture/Colors](modding-texture/texture-intro.md)
-  - [Previewing textures in Blender](modding-texture/texture-blender-preview.md)
   - [Functions of Base/SSS/ILM textures](modding-texture/texture-images.md)
   - [Custom materials](modding-texture/custom-materials.md)
   - [Per-game texture specifics]()
@@ -89,7 +90,7 @@
   - [Setting up UE4SS]()
 
 # Distributing your mod
-  - [Creating a .pak archive](packing/pak-intro.md)
+  - [Creating a .pak archive](packing/pak.md)
     - [Installing your mod](packing/pak-installing.md)
   - [Unverum functionality]()
     - [Text patching]()

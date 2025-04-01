@@ -15,3 +15,9 @@ https://drive.google.com/drive/folders/1Llx4qfvOT8LCIkDaxU3QuO38WsyTolaR
 ### Color Cloning Tool
 An ABSOLUTE MUST for anyone doing recolors, does pretty much all the work for you.  
 https://gamebanana.com/tools/17576
+
+### Side Flip Material
+A replacement for MI_MAIN_BASE that you can instance to have different textures per side of the body.   
+Set up like a normal material, instance as MI_MAIN_BASE in the color folder and cook.  
+Merge Content with Content.  
+[flipsides.zip](files/FlipSides.zip)

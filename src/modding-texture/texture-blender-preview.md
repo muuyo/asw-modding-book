@@ -23,7 +23,7 @@ Afterwards;
 
 1.  If the materials on your model are showing up as dummy_material, please use the updated GLTF importer as seen here.
 
-2.  Open the Shader Editor tab below instead of the Timeline. Choose the slot with the Base material (usually named eit...her "- Strive -...", or "MI_MAIN_BASE). Here, you input each texture into the shader. <div align="center"><img src="images/Shader-Not-Setted-Up.png"></div>
+2.  Open the Shader Editor tab below instead of the Timeline. Choose the slot with the Base material *(usually named either "- Strive -...", or "MI_MAIN_BASE")*. Here, you input each texture into the shader. <div align="center"><img src="images/Shader-Not-Setted-Up.png"></div>
 
 3.  Go to Base. Click on the folder icon and select your _base.TGA. Select it to put it into each node. Do the same thing with the other textures, such as SSS/Detail.
 
