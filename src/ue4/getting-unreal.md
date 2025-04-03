@@ -16,8 +16,18 @@ You can find the download links below. Just pick the one matching the game you w
 | Granblue Fantasy Versus       | [Unreal Engine 4.21](https://1drv.ms/u/s!ApT7KvOr_B0hkPgWb5AjxrUapJcYmQ?e=79mVYA)                        |
 | Granblue Fantasy Versus Rising | [Unreal Engine 4.27](https://drive.google.com/file/d/1SnX9rcMxeHP82GojHocdLUux2Sa0qZG1/view?usp=sharing) |
 
+The EXE you're going to want to launch to start the project is typically in `Engine/Binaries/Win64/`. 
+
 The Guilty Gear -Strive- editor may receive periodic patches in another archive. You'll need to update it using the steps on the [next page](./custom-project.md) for actually setting up the editor.
 
-# NOTICE FOR STRIVE
+## STRIVE SPECIFICS
+
+Strive has a bit of extra setup that you'll have to do to get it working!  
+First, you'll want to download all 3 files from the above link.  
+Extract `GGSTCookedEditor` anywhere, and you'll have 2 folders: RED and Engine.  
+Extract `CookedEditor_Patch` into the same folder, merging RED with RED and Engine with Engine.  
+Drag the Content_Patch contents into RED, then you can go into `RED/Binaries/Win64` to launch the Unreal editor.  
+To make a new project to do your own work in, you'll have to follow the directions on the [custom project page](./custom-project.md).
+
 currently, there's an updated ver of the CharaMaterial folder as well; use this or things bug out.
 download from this repo [here](./files/CharaMaterial.rar) then extract it like the above; go into RED/ (your project's folder) then copy Content into there, replacing files when prompted.
