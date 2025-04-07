@@ -20,11 +20,14 @@ Some actions must be done in Blender **before** importing the model here:
 7. Change the Fmodel settings to what you need - I currently have "Scale" at 1.00 and "Bone Length" at 4.
 8. Donezo. Many materials will be chunked (the model having multiple Blender material slots that are in fact the same original material), though, so it's recommended that you go into Mesh Edit mode and do this process;
    - for every material with the same name, use Select to select all vertices on that material
-   - assign them to the first slot of that material (merge MI_MAIN_BASE with MI_MAIN_BASE)
+   - Assign them to the first slot of that material (merge MI_MAIN_BASE with MI_MAIN_BASE)
+   - The above doesn't apply to material slots like `ELP_base_skirt` and `MI_MAIN_BASE_frip`; these are still unique, and shouldn't be merged with normal Base materials.
    - do this for each other chunked material
    - go into Object mode and delete the other slots with the -
  - Alternatively, install the Material Utilities addon to handle this process automatically. 
-  ![Material Uti](image.png)  
+  ![Material Uti](image.png)    
+     - To do so, install the above addon then use it to clean material slots (since there's duplicates) then remove the extras manually using the Minus on the right (doesn't work in edit mode).
+      ![use](image-1.png)
   
 ## Umodel
   1. Download the ASW-compatible modded .gltf importer [addon](../modding-mesh/files/io_scene_gltf2_ue.zip)

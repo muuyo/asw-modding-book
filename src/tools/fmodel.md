@@ -17,6 +17,7 @@ Now, you need to add Guilty Gear as a custom game.
 - Click the small two arrows, and put in Guilty Gear Strive then browse to the game's file location on your computer. After, hit the small plus.
 - Select this newly added game in the Detected Game section.
 - Make sure the box beside 'UE versions' is *unchecked*, then select "GAME_UE4_25" (for Unreal version 4.25, which the game uses)
+- At the top left, click Directory, then input the AES key for your game. This should be at the top of your game's #`XXX-resources` channel in the Unreal Anime Mods discord.  
 After, you should be prepped to use Fmodel! Hit OK, then double click the `pakchunk0-WindowsNoEditor.pak` to start browsing the game's files.
 
 # Blender

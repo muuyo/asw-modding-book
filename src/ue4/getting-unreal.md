@@ -29,5 +29,5 @@ Extract `CookedEditor_Patch` into the same folder, merging RED with RED and Engi
 Drag the Content_Patch contents into RED, then you can go into `RED/Binaries/Win64` to launch the Unreal editor.  
 To make a new project to do your own work in, you'll have to follow the directions on the [custom project page](./custom-project.md).
 
-currently, there's an updated ver of the CharaMaterial folder as well; use this or things bug out.
+Currently, there's an updated ver of the CharaMaterial folder as well; use this or things bug out.
 download from this repo [here](./files/CharaMaterial.zip) then extract it like the above; go into RED/ (your project's folder) then copy Content into there, replacing files when prompted.

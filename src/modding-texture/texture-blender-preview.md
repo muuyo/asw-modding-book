@@ -21,9 +21,9 @@ Afterwards;
 
 <div align="center"><img src="images/Just-installed-model.png"></div>
 
-1.  If the materials on your model are showing up as dummy_material, please use the updated GLTF importer as seen here.
+1.  If the materials on your model are showing up as dummy_material, please [use Fmodel](../tools/fmodel.md), and export as UEmodel.
 
-2.  Open the Shader Editor tab below instead of the Timeline. Choose the slot with the Base material *(usually named either "- Strive -...", or "MI_MAIN_BASE")*. Here, you input each texture into the shader. <div align="center"><img src="images/Shader-Not-Setted-Up.png"></div>
+2.  Open the Shader Editor tab below instead of the Timeline. Choose the slot with the Base material *(usually named either "- Strive -...", "MI_MAIN_BASE", or CHR_base (CHR being the character ID))*. Here, you input each texture into the shader. <div align="center"><img src="images/Shader-Not-Setted-Up.png"></div>
 
 3.  Go to Base. Click on the folder icon and select your _base.TGA. Select it to put it into each node. Do the same thing with the other textures, such as SSS/Detail.
 
