@@ -33,8 +33,6 @@
 - [Previewing textures in Blender](modding-texture/texture-blender-preview.md)
 
 - [Audio](modding-audio/audio-intro.md)
-  - [Extracting audio]()
-  - [Importing audio]()
 
 - [Textures/Recolors/Materials](modding-texture/texture-intro.md)
   - [Functions of Base/SSS/ILM textures](modding-texture/texture-images.md)
