@@ -20,7 +20,11 @@ Now, you need to add Guilty Gear as a custom game.
 - At the top left, click Directory, then input the AES key for your game. This should be at the top of your game's #`XXX-resources` channel in the Unreal Anime Mods discord.  
 After, you should be prepped to use Fmodel! Hit OK, then double click the `pakchunk0-WindowsNoEditor.pak` to start browsing the game's files.
 
-# Blender
+## Audio support
+
+Please view the [audio modding page.](../modding-audio/audio-intro.md)
+
+## Blender
 
 [Blender addon required to import .ueformat files](https://github.com/h4lfheart/UEFormat/tree/master/Blender)
 

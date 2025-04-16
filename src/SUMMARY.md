@@ -36,7 +36,7 @@
   - [Extracting audio]()
   - [Importing audio]()
 
-- [Texture/Colors](modding-texture/texture-intro.md)
+- [Textures/Recolors/Materials](modding-texture/texture-intro.md)
   - [Functions of Base/SSS/ILM textures](modding-texture/texture-images.md)
   - [Custom materials](modding-texture/custom-materials.md)
   - [Per-game texture specifics]()

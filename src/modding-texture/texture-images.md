@@ -10,10 +10,14 @@ This page will detail the functions of each image in Strive:
 preliminary draft;
 
 In this doc, when referring to values such as ".3", this usually means "30% white, mostly black" for instance. Different photo editors handle 30%/.3 differently.
+As well, **importantly**, the "alpha" I refer to is the *Alpha Channel* of the image; USUALLY used for transparency, which is why files look broken sometimes.  
+This is why you have to:
+- Use **Photopea** or **Photoshop**, Photopea being a free web-based clone of the latter. Both will do anything you need to do.
+- Export textures as *TGA* specifically, because it stores alpha channel information non-destructively; ergo, if you use anything else, things are going to break pretty bad.
 
 ## ColorXX (editable per color slot)  
 - CHR_base is the base color of your character. the alpha of this image decides how shiny the material is.  
-- CHR_Sss *is* the shadow color of your character - this game has no shadow color handling. The Alpha of this image defines *Taste* and *Asano* gradients, more specifically which parts of the image get them. 
+- CHR_Sss *is* the shadow color of your character - this game has no shadow lighting handling (mostly). The Alpha of this image defines *Taste* and *Asano* gradients, more specifically which parts of the image get them. 
   - Set this to .3 on a part to get the Asano gradient (usually used for hair).
   - Set this to .7 on a part to get the Taste color
   - These gradients are both set in the material, *not* any textures, so you almost always want this alpha completely black unless you are material instancing.
