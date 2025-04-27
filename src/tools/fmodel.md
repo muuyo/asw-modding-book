@@ -17,8 +17,9 @@ Now, you need to add Guilty Gear as a custom game.
 - Click the small two arrows, and put in Guilty Gear Strive then browse to the game's file location on your computer. After, hit the small plus.
 - Select this newly added game in the Detected Game section.
 - Make sure the box beside 'UE versions' is *unchecked*, then select "GAME_UE4_25" (for Unreal version 4.25, which the game uses)
-- At the top left, click Directory, then input the AES key for your game. This should be at the top of your game's #`XXX-resources` channel in the Unreal Anime Mods discord.  
-After, you should be prepped to use Fmodel! Hit OK, then double click the `pakchunk0-WindowsNoEditor.pak` to start browsing the game's files.
+- After, you should be prepped to use Fmodel! Hit OK.  
+- At the top left, click Directory, then input the AES key for your game. This should be at the top of your game's `#XXX-resources` channel in the Unreal Anime Mods discord.   
+Then you can double click the `pakchunk0-WindowsNoEditor.pak` to start browsing the game's files.
 
 ## Audio support
 
@@ -26,13 +27,13 @@ Please view the [audio modding page.](../modding-audio/audio-intro.md)
 
 ## Blender
 
-[Blender addon required to import .ueformat files](https://github.com/h4lfheart/UEFormat/tree/master/Blender)
+[You will need the Blender addon linked here to import .ueformat files.](https://github.com/h4lfheart/UEFormat/tree/blender)
 
 FModel supports exporting models and animations to a new "UEFormat", which is more accurate than either PSK/PSA or glTF. To export to UEFormat, open FModel's settings, then click on the `Models` tab. Finally, set `Mesh Format` to `UEFormat (uemodel)`.
 
 Now, you can right-click a model, animation, or folder containing either, and export the models/animations to UEFormat. The attached Blender addon can then import these.
 
-To set up the Blender addon, you will need to download the entire repository, then navigate down to `\Blender\` and zip "io_scene_ueformat" into a new zip file. If you don't want to do this, [here's a zip.](./files/ueformat.zip)
+To set up the Blender addon, you will need to download the entire repository (using the blue Code button -> Download Zip)
 
 Then, install this into Blender under `Edit > Preferences > Add-ons > top right arrow > Install From Disk...`
 
