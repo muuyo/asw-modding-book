@@ -27,7 +27,11 @@ Please view the [audio modding page.](../modding-audio/audio-intro.md)
 
 ## Blender
 
-[You will need the Blender addon linked here to import .ueformat files.](https://github.com/h4lfheart/UEFormat/tree/blender)
+[- You will need the Blender addon linked here to import .ueformat files.](https://github.com/h4lfheart/UEFormat/tree/blender)
+
+To install the above, click the blue "Code" button followed by "Download Zip".
+Then, install the addon like so.
+![install process](image-3.png)
 
 FModel supports exporting models and animations to a new "UEFormat", which is more accurate than either PSK/PSA or glTF. To export to UEFormat, open FModel's settings, then click on the `Models` tab. Finally, set `Mesh Format` to `UEFormat (uemodel)`.
 
