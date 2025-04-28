@@ -5,19 +5,19 @@
 
 # Getting your tools set up
 
- - [**Unreal Engine**](ue4/getting-unreal.md)
+- [**Unreal Engine**](ue4/getting-unreal.md)
   - [Installing Unreal Engine](ue4/getting-unreal.md)
   - [Custom UE4 project](ue4/custom-project.md)
   - [Starting the editor](ue4/using-unreal.md)
   - [Getting assets into Unreal](ue4/unreal-exporting.md)
 
- - [External tools](tools/get-tools.md)
+- [External tools](tools/get-tools.md)
   - [Using Fmodel](tools/fmodel.md)
   - [[Deprecated] Using Umodel](tools/umodel.md)
   - [Using AssetEditor](tools/asseteditor.md)
   - [Using UAssetGUI](tools/uassetgui.md)
   - [Using Blender](tools/blender.md)
- - [Loose file loading](tools/looseloading.md)
+- [Loose file loading](tools/looseloading.md)
 
 - [Useful user-created tools](userfiles/main.md)
   
