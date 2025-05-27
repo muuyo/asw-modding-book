@@ -1,0 +1,14 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+// body, section {
+//   font-size: 14pt;
+// }
+
+.page {
+    & article {
+        & > h1 {
+            font-size: 20pt;       
+        }
+    }
+}

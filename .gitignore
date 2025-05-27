@@ -1,4 +1,18 @@
+<<<<<<< HEAD
+.DS_Store
+.gitignore
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.obsidian
+.quartz-cache
+private/
+.replit
+replit.nix
+=======
 book
 asw-modding-book.code-workspace
 src\ue4\content\shared
 /src/ue4/files/Content/Shared
+>>>>>>> main/quartz
